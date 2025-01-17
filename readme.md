@@ -1,4 +1,6 @@
 # Auriga Fully Open Source Code and Text Completion Plugin for Sublime Text
+## Using llama.cpp binaries (to keep it small so it runs almost anywhere with no network connections needed)
+### Demo runs on a Dell optiplex built circa 2016
 - A Sublime Text plugin that integrates a machine learning model for real-time text generation and completion using fully open source components and GGUF (Generic Graph Universal Format) model files.
 
 # TLDR
@@ -10,6 +12,7 @@
 - Restart Sublime Text after installation to activate the plugin.
 - Use your keyboard shortcut to do code or text completion in the open editor window.
 - Use ctrl-` to watch output in the console.
+- The model used here can be found at https://huggingface.co/TheBloke/neural-chat-7B-v3-3-GGUF
 
 ## Features
 - Real-time text generation using GGUF models
