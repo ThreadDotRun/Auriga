@@ -30,8 +30,9 @@
 - Set up your model path in the plugin code:
 - model_folder = "/path/to/your/llama/models/"
 - selected_model = "your-model-name.gguf"
-## Set the path for your GGUF model lcally like:
+## Set the path for your llama.cpp binaries locally like referenced in Llama.py:
 - ```command = ['/media/tdrsvr/a2c28d32-eac8-4438-b371-ce4a345bbf6d/llama/llama.cpp/main', '-m', self.model, '-c', context_size, '-b', batch_size, '-n', num_tokens,'--keep', keep, '--repeat_penalty',repeat_penalty, '--no-penalize-nl', '--mirostat-lr', "0.1","--temp", "0.15", "--tfs", "0.95", "--mirostat-ent", "4.0"]```
+- Download here https://github.com/ggerganov/llama.cpp
 ## Configure model parameters (optional):
 - In LLama.py these are used as such : response = llama.run_llama(user_input, context_size=f'{selected_ctls}', batch_size=f'{selected_ctls}', num_tokens=f'{num_token}', temp=f'{temps}')
 - context_size = "1000" 
