@@ -1,8 +1,8 @@
 # Auriga Plugin for Sublime Text
-- A Sublime Text plugin that integrates the Llama language model for real-time text generation and completion using fully open source everything.
+- A Sublime Text plugin that integrates a machine learning model for real-time text generation and completion using fully open source components and GGUF (Generic Graph Universal Format) model files.
 
 ## Features
-- Real-time text generation using Llama models
+- Real-time text generation using GGUF models
 - Context-aware completions based on cursor position
 - Support for custom Llama model configurations
 - ANSI code stripping for clean output
@@ -20,6 +20,8 @@
 - Set up your model path in the plugin code:
 - model_folder = "/path/to/your/llama/models/"
 - selected_model = "your-model-name.gguf"
+## Set the path for your GGUF model lcally like:
+- ```command = ['/media/tdrsvr/a2c28d32-eac8-4438-b371-ce4a345bbf6d/llama/llama.cpp/main', '-m', self.model, '-c', context_size, '-b', batch_size, '-n', num_tokens,'--keep', keep, '--repeat_penalty',repeat_penalty, '--no-penalize-nl', '--mirostat-lr', "0.1","--temp", "0.15", "--tfs", "0.95", "--mirostat-ent", "4.0"]```
 ## Configure model parameters (optional):
 - In LLama.py these are used as such : response = llama.run_llama(user_input, context_size=f'{selected_ctls}', batch_size=f'{selected_ctls}', num_tokens=f'{num_token}', temp=f'{temps}')
 - context_size = "1000" 
