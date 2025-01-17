@@ -5,7 +5,8 @@
 
 # TLDR
 - Auriga.py goes in the Sublime Text package folder in another folder (Auriga works)
-- The llamacpp folder also goes in this folder so that the plugin (Auriga) can find and import it
+- The llamacpp folder (in this porject, not the llama.cpp binaries) also goes in this folder so that the plugin (Auriga) can find and import it
+	- See (Set the path for your llama.cpp binaries locally like referenced in Llama.py:) below for where to put the llama.cpp binaries and the linked project to get them.
 - Use the Sublimetext menu Preferences->Key Bindings and add the code in the pic included in pics for your shortcut key
 - Make sure you have Python 3.10 (tested) or better installed on as your system python 
 - Tested under Ubuntu 24
