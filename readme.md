@@ -1,4 +1,4 @@
-# Auriga Plugin for Sublime Text
+# Auriga Fully Open Source Code and Text Completion Plugin for Sublime Text
 - A Sublime Text plugin that integrates a machine learning model for real-time text generation and completion using fully open source components and GGUF (Generic Graph Universal Format) model files.
 
 ## Features
