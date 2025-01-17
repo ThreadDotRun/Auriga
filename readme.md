@@ -2,7 +2,7 @@
 ## Using llama.cpp binaries (to keep it small so it runs almost anywhere with no network connections needed)
 ### Demo runs on a Dell optiplex built circa 2016
 - A Sublime Text plugin that integrates a machine learning model for real-time text generation and completion using fully open source components and GGUF (Generic Graph Universal Format) model files.
-
+![Demo GIF](./Aurgia_demo_2025-01-17_final.mp4_1.gif)
 # TLDR
 - Auriga.py goes in the Sublime Text package folder in another folder (Auriga works)
 - The llamacpp folder (in this project, not the llama.cpp binaries) also goes in this folder so that the plugin (Auriga) can find and import it
