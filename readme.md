@@ -49,5 +49,5 @@
 - Acknowledgments
 - llama.cpp project
 - Sublime Text community
-[Other acknowledgments]
-- Caffeine and Nicotine
+## Other acknowledgments]
+- [Caffeine and Nicotine]
