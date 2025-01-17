@@ -1,6 +1,16 @@
 # Auriga Fully Open Source Code and Text Completion Plugin for Sublime Text
 - A Sublime Text plugin that integrates a machine learning model for real-time text generation and completion using fully open source components and GGUF (Generic Graph Universal Format) model files.
 
+# TLDR
+- Auriga.py goes in the Sublime Text package folder in another folder (Auriga works)
+- The llamacpp folder also goes in this folder so that the plugin (Auriga) can find and import it
+- Use the Sublimetext menu Preferences->Key Bindings and add the code in the pic included in pics for your shortcut key
+- Make sure you have Python 3.10 (tested) or better installed on as your system python and make sure that the sublime 
+- Tested under Ubuntu 24
+- Restart Sublime Text after installation to activate the plugin.
+- Use your keyboard shortcut to do code or text completion in the open editor window.
+- Use ctrl-` to watch output in the console.
+
 ## Features
 - Real-time text generation using GGUF models
 - Context-aware completions based on cursor position
