@@ -5,7 +5,7 @@
 - Auriga.py goes in the Sublime Text package folder in another folder (Auriga works)
 - The llamacpp folder also goes in this folder so that the plugin (Auriga) can find and import it
 - Use the Sublimetext menu Preferences->Key Bindings and add the code in the pic included in pics for your shortcut key
-- Make sure you have Python 3.10 (tested) or better installed on as your system python and make sure that the sublime 
+- Make sure you have Python 3.10 (tested) or better installed on as your system python 
 - Tested under Ubuntu 24
 - Restart Sublime Text after installation to activate the plugin.
 - Use your keyboard shortcut to do code or text completion in the open editor window.
